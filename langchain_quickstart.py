@@ -26,7 +26,7 @@ model = init_chat_model("gemini-2.5-flash", model_provider="google_genai")
 
 # Create messages
 messages = [
-    SystemMessage(content="Translate the following from English into Italian"),
+    SystemMessage(content="Translate the following from English into Spanish."),
     HumanMessage(content="Hello World!"),
 ]
 
